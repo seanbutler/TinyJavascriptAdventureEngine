@@ -5,14 +5,23 @@
   <link href="./game.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Simple Adventure Game System</h1>
-  <p>Simple engine.js interprets the data stored in a JSON object to present the game as a series of states and possible actions. For simple games you can use each state as a location and/or a story node. The events are the players choices. </p>
-  <p>Source code is freely available on github for anyone to use and make their own adventures. </p>
-  <p>Couple of examples, remix them as you see fit</p>
-  <ul>
-    <li><a href = "./Allotment">Allotment</a></li>
-    <li><a href = "./Fortnite">Fortnite</a></li>
-  </ul>
+  <h1>Simple Interactive Fiction Engine</h1>
+  <div id="state">state</div>
+  <div id="prompt">prompt</div>
+  <div id="events">events</div>
+
+  <div id="footer">
+    <p>
+      Here are links to two examples of IF made with this system.
+    </p>
+    <ul>
+      <li><a href = "./Allotment/index.html">Allotment Story</a></li>
+      <li><a href = "./Fortnite/index.html">Fortnite Story</a></li>
+    </ul>
+</div>
+
+  <script type="text/javascript" src="./gamedata.js"></script>
+  <script type="text/javascript" src="./engine.js"></script>
 </body>
 
 </html>
